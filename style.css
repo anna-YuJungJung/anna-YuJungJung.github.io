@@ -1,3 +1,10 @@
+.blue{
+ 
+    color:rgb(0, 26, 255);
+
+
+}
+
 p{
     color:green;
 }
@@ -13,8 +20,12 @@ html{
   
   body{
     font-family:"Times new roman", serif;
+    font-weight:bold; 
+    /* =font-weight 700 */
+    line-height: 1.5;
+    /* 1.5나 현제px보다 크게 지정해야함 */
     background-color:ivory;
-    margin-left:20px;
+    margin-left:200px;
   }
   
 
