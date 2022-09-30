@@ -1,7 +1,7 @@
 /* CSS files add styling rules to your content */
 
 body {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   background-image: url ("ivory-off-white-paper-texture.jpg");
   margin-left:50px;
   
@@ -16,6 +16,13 @@ body {
   
 }
 
+
+#title{
+  border:1px solid white;
+  color:rgb(241, 193, 255);
+  margin-left:40px
+  
+    }
 
 
 #sidebar{
@@ -112,12 +119,6 @@ h1 {
   
 }
 
-#title{
-  border:1px solid white;
-  
-  margin-left:40px
-  
-    }
 
 #content{
   border:1px solid white;
