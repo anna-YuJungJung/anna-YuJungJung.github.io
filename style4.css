@@ -1,0 +1,230 @@
+#container > div {
+  margin: 10px;
+  float: left;
+}
+#letter-a {
+  position: relative;
+  width: 30px;
+  height: 40px;
+  background: white;
+  border-radius: 10px 10px 0 0;
+  border-style: solid;
+  border-color: red red transparent red;
+  border-width: 10px 10px 0 10px;
+}
+
+#letter-a::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  height: 10px;
+  width: 30px;
+  background: orange;
+}
+
+
+html {
+  background-color: black;
+  color: blue;
+}
+
+div {  
+  width: 60%;
+  margin: 0 auto;
+}
+
+#letter-a {
+  font-family: 'Helvetica', sanserif;
+  font-size: 3rem;
+  text-align:center;
+  animation: movieSkew 1s linear infinite alternate;  
+}
+
+
+@keyframes movieSkew {
+  0% {
+        transform:  translateY(0);  
+  }
+  30% {
+    color: red; 
+    transform: translateY(200px) skewX(-20deg);
+  }
+  100% {
+    transform:translateY(400px) skewY(-30deg);
+  }  
+}
+
+#letter-a2 {
+  font-family: 'Helvetica', sanserif;
+  font-size: 3rem;
+  text-align:center;
+  animation: a2 1s linear infinite alternate;  
+}
+#letter-a2 {
+  position: relative;
+  width: 30px;
+  height: 40px;
+  background: white;
+  border-radius: 10px 10px 0 0;
+  border-style: solid;
+  border-color: red red transparent red;
+  border-width: 10px 10px 0 10px;
+}
+
+#letter-a2::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  height: 10px;
+  width: 30px;
+  background: orange;
+}
+
+@keyframes a2 {
+  0% {
+    -webkit-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5)
+  }
+  50% {
+    -webkit-transform: scale(1.0, 1.0);
+    transform: scale(1.0, 1.0);
+  }
+  100% {
+    -webkit-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5);
+  }
+}
+
+
+#letter-a3 {
+  font-family: 'Helvetica', sanserif;
+  font-size: 3rem;
+  text-align:center;
+  animation: a3 1s linear infinite alternate;  
+}
+#letter-a3 {
+  position: relative;
+  width: 30px;
+  height: 40px;
+  background: white;
+  border-radius: 10px 10px 0 0;
+  border-style: solid;
+  border-color: red red transparent red;
+  border-width: 10px 10px 0 10px;
+}
+
+#letter-a3::before {
+  content: "";
+  position: absolute;
+  top: 15px;
+  height: 10px;
+  width: 35px;
+  background: pink;
+}
+
+
+@keyframes a3 {
+  0%,
+  40%,
+  100% {
+    transform: scaleY(0.4);
+    -webkit-transform: scaleY(0.4);
+  }
+  20% {
+    transform: scaleY(1.0);
+    -webkit-transform: scaleY(1.0);
+  }
+}
+
+
+#letter-a4 {
+  font-family: 'Helvetica', sanserif;
+  font-size: 3rem;
+  text-align:center;
+  animation: a4 1s linear infinite alternate;  
+}
+#letter-a4 {
+  position: relative;
+  width: 30px;
+  height: 40px;
+  background: white;
+  border-radius: 10px 10px 0 0;
+  border-style: solid;
+  border-color: red red transparent red;
+  border-width: 10px 10px 0 10px;
+}
+
+#letter-a4::before {
+  content: "";
+  position: absolute;
+  top: 15px;
+  height: 10px;
+  width: 35px;
+  background: pink;
+}
+
+
+@keyframes a4 {
+  0% {
+    
+    transform: rotate(0deg);
+  }
+  25% {
+    background: #aa00ff;
+  }
+  50% {
+    
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+   
+  }
+}
+
+
+#letter-a5 {
+  font-family: 'Helvetica', sanserif;
+  font-size: 3rem;
+  text-align:center;
+  animation: a5 1s linear infinite alternate;  
+}
+#letter-a5 {
+  position: relative;
+  width: 30px;
+  height: 40px;
+  background: white;
+  border-radius: 10px 10px 0 0;
+  border-style: solid;
+  border-color: red red transparent red;
+  border-width: 10px 10px 0 10px;
+}
+
+#letter-a5::before {
+  content: "";
+  position: absolute;
+  top: 15px;
+  height: 10px;
+  width: 35px;
+  background: pink;
+}
+
+
+@keyframes a5 {
+  0% {
+    background: #00e5ff;
+    transform: translatex(0px);
+  }
+  25% {
+    background: #aa00ff;
+    transform: translatex(100px);
+  }
+  50% {
+    background: #0761ff;
+    transform: translatex(0px);
+  }
+  100% {
+    background: #00e5ff;
+  }
+}
