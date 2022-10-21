@@ -1,0 +1,549 @@
+*{ padding: 0;
+  margin: 0;
+  }
+  
+  .box{display: grid;
+      width: 100vw;
+      height: 100vh;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      
+        grid-area: 1 / 1 / span 1 / span 1;
+      background-color: white;
+      }
+      
+      .goa{padding:100px;
+      opacity: 100%;
+        font-family: Helvetica, sans-serif;
+      overflow: scroll;
+      transition-property: opacity;
+        transition: background-color 2s ease-in-out;
+        background-color: white;
+        text-color
+       
+      }
+      
+    
+      .goa:hover {
+        
+        background-color: #087CA7;
+        font-size: 10px;
+        font-family: monarcha, serif;
+        font-weight: 200;
+        font-style: normal;
+        text-color: white;
+        width: 50vw;
+        height: 100vh;
+     
+      
+      }
+  
+      img {
+          max-width: 100%;
+          height: auto;
+          padding-bottom: 2vh;
+        }
+      
+      
+      .agra{padding: 100px;
+      opacity: 100%;
+        font-family: Helvetica, sans-serif;
+      overflow: scroll;
+      transition-property: opacity;
+      transition-property: opacity;
+        transition: background-color 2s ease-in-out;
+        background-color:white;
+        text-color
+      }
+  
+  
+      .agra:hover {
+        
+        background-color: #693668;
+        width: 50vw;
+      height: 100vh;
+      
+      }
+  
+      .phuket{padding:100px;
+        opacity: 100%;
+          font-family: Helvetica, sans-serif;
+        overflow: scroll;
+        transition-property: opacity;
+          transition: background-color 2s ease-in-out;
+          background-color:white;
+          text-color
+        }
+        
+        .phuket:hover {
+          
+          
+        background-color: #C8963E;
+          font-size: 10px;
+          font-family: monarcha, serif;
+          font-weight: 200;
+          font-style: normal;
+          text-color: white;
+          width: 50vw;
+          height: 100vh;
+        
+        }
+  
+        
+      .london{padding:100px;
+        opacity: 100%;
+          font-family: Helvetica, sans-serif;
+        overflow: scroll;
+        transition-property: opacity;
+          transition: background-color 2s ease-in-out;
+          background-color: white;
+          text-color
+      }
+  
+  
+      .london:hover {
+          
+        background-color:  #F84AA7;
+        font-size: 10px;
+        font-family: monarcha, serif;
+        font-weight: 200;
+        font-style: normal;
+        text-color: white;
+        width: 50vw;
+      height: 100vh;
+      
+      }
+      
+      .mexico{padding: 100px;
+      opacity: 100%;
+        font-family: Helvetica, sans-serif;
+      overflow: scroll;
+      transition-property: opacity;
+      transition-duration: 500ms;
+      transition: background-color 2s ease-in-out;
+      background-color: white;
+      }
+      
+      .mexico:hover {
+          
+        background-color: #60B62B;
+        width: 50vw;
+        height: 100vh;
+      
+      }
+      
+      .norway{padding: 100px;
+      opacity: 100%;
+        font-family: Helvetica, sans-serif;
+      overflow: scroll;
+      transition-property: opacity;
+      transition-duration: 500ms;
+      transition: background-color 2s ease-in-out;
+      background-color: white;
+      }
+  
+  
+      .norway:hover {
+          
+        background-color: #777DA7;
+        width: 50vw;
+        height: 100vh;
+      
+      }
+  
+      .losangeles{padding: 100px;
+      opacity: 100%;
+        font-family: Helvetica, sans-serif;
+      overflow: scroll;
+      transition-property: opacity;
+      transition-duration: 500ms;
+      transition: background-color 2s ease-in-out;
+      background-color: white;
+      }
+  
+      .losangeles:hover {
+          
+        background-color: #94C9A9;
+        width: 50vw;
+        height: 100vh;
+      
+      }
+      
+      .Alaska{padding: 100px;
+      opacity: 100%;
+      font-family: Helvetica, sans-serif;
+      overflow: scroll;
+      transition-property: opacity;
+      transition: background-color 2s ease-in-out;
+      background-color: white;
+      }
+      
+      .Alaska:hover {
+          
+        background-color: #DB2955;
+        width: 50vw;
+        height: 100vh;
+      
+      }
+  
+      .Dubai{padding: 100px;
+      opacity: 100%;
+        font-family: Helvetica, sans-serif;
+      overflow: scroll;
+      transition-property: opacity;
+      transition: background-color 2s ease-in-out;
+      background-color: white;
+      }
+      
+      .Dubai:hover {
+          
+        background-color: #9BC53D;
+        width: 50vw;
+        height: 100vh;
+      
+      }
+  
+      .Indonesia{padding: 100px;
+      opacity: 100%;
+        font-family: Helvetica, sans-serif;
+      overflow: scroll;
+      transition-property: opacity;
+      transition-duration: 500ms;
+      transition: background-color 2s ease-in-out;
+      background-color: white;
+      }
+  
+  
+      .Indonesia:hover {
+          
+        background-color:  #FDE74C;
+        font-size: 10px;
+        font-family: monarcha, serif;
+        font-weight: 200;
+        font-style: normal;
+        text-color: #FDE74C;
+        width: 50vw;
+        height: 100vh;
+      
+      }
+  
+      .Hongkong{padding: 100px;
+      opacity: 100%;
+        font-family: Helvetica, sans-serif;
+      overflow: scroll;
+      transition-property: opacity;
+      transition-duration: 500ms;
+      transition: background-color 2s ease-in-out;
+      background-color: white;
+      }
+  
+  
+      .Hongkong:hover {
+          
+        background-color: #574D93;
+        width: 50vw;
+        height: 100vh;
+      
+      }
+  
+  
+      .China{padding: 100px;
+        opacity: 100%;
+          font-family: Helvetica, sans-serif;
+        overflow: scroll;
+        transition-property: opacity;
+        transition-duration: 500ms;
+        transition: background-color 2s ease-in-out;
+        background-color: white;
+        }
+    
+    
+        .China:hover {
+            
+          background-color: #F46036;
+          width: 50vw;
+          height: 100vh;
+        
+        }
+  
+        .Maldives{padding: 100px;
+          opacity: 100%;
+            font-family: Helvetica, sans-serif;
+          overflow: scroll;
+          transition-property: opacity;
+          transition-duration: 500ms;
+          transition: background-color 2s ease-in-out;
+          background-color: white;
+          }
+      
+      
+          .Maldives:hover {
+              
+            background-color: #574D93;
+            width: 50vw;
+            height: 100vh;
+          
+          }
+  
+          .NewYork{padding: 100px;
+            opacity: 100%;
+              font-family: Helvetica, sans-serif;
+            overflow: scroll;
+            transition-property: opacity;
+            transition-duration: 500ms;
+            transition: background-color 2s ease-in-out;
+            background-color: white;
+            }
+        
+        
+            .NewYork:hover {
+                
+              background-color: #E56399;
+              width: 50vw;
+              height: 100vh;
+            
+            }
+  
+            .Boston{padding: 100px;
+              opacity: 100%;
+                font-family: Helvetica, sans-serif;
+              overflow: scroll;
+              transition-property: opacity;
+              transition-duration: 500ms;
+              transition: background-color 2s ease-in-out;
+              background-color: white;
+              }
+          
+          
+              .Boston:hover {
+                  
+                background-color: #D3A588;
+                width: 50vw;
+                height: 100vh;
+              
+              }
+  
+              .Brighton{padding: 100px;
+                opacity: 100%;
+                  font-family: Helvetica, sans-serif;
+                overflow: scroll;
+                transition-property: opacity;
+                transition-duration: 500ms;
+                transition: background-color 2s ease-in-out;
+                background-color: white;
+                }
+            
+            
+                .Brighton:hover {
+                    
+                  background-color:  #7FD1B9;
+                  width: 50vw;
+                  height: 100vh;
+                
+                }
+  
+  
+                .Laguna{padding: 100px;
+                  opacity: 100%;
+                    font-family: Helvetica, sans-serif;
+                  overflow: scroll;
+                  transition-property: opacity;
+                  transition-duration: 500ms;
+                  transition: background-color 2s ease-in-out;
+                  background-color: white;
+                  }
+              
+              
+                  .Laguna:hover {
+                      
+                    background-color: #995D81;
+                    font-size: 10px;
+                    font-family: monarcha, serif;
+                    font-weight: 200;
+                    font-style: normal;
+                    text-color: white;
+                    width: 50vw;
+                    height: 100vh;
+                  
+                  }
+  
+  
+                  .Locarno{padding: 100px;
+                    opacity: 100%;
+                      font-family: Helvetica, sans-serif;
+                    overflow: scroll;
+                    transition-property: opacity;
+                    transition-duration: 500ms;
+                    transition: background-color 2s ease-in-out;
+                    background-color: white;
+                    }
+                
+                
+                    .Locarno:hover {
+                        
+                      background-color:  #2176AE;
+                      width: 50vw;
+                      height: 100vh;
+                    
+                    }
+  
+                    .Venice{padding: 100px;
+                      opacity: 100%;
+                        font-family: Helvetica, sans-serif;
+                      overflow: scroll;
+                      transition-property: opacity;
+                      transition-duration: 500ms;
+                      transition: background-color 2s ease-in-out;
+                      background-color: white;
+                      }
+                  
+                  
+                      .Venice:hover {
+                          
+                        background-color: #EB8258;
+                        width: 50vw;
+                        height: 100vh;
+                      
+                      }
+  
+  
+  
+  
+                      .Providence{padding: 100px;
+                        opacity: 100%;
+                          font-family: Helvetica, sans-serif;
+                        overflow: scroll;
+                        transition-property: opacity;
+                        transition-duration: 500ms;
+                        transition: background-color 2s ease-in-out;
+                        background-color: white;
+                        }
+                    
+                    
+                        .Providence:hover {
+                            
+                          background-color: #995D81;
+                          width: 50vw;
+                          height: 100vh;
+                        
+                        }
+  
+  
+  
+                      .Ranthambore{padding: 100px;
+                        opacity: 100%;
+                          font-family: Helvetica, sans-serif;
+                        overflow: scroll;
+                        transition-property: opacity;
+                        transition-duration: 500ms;
+                        transition: background-color 2s ease-in-out;
+                        background-color: white;
+                        }
+                    
+                    
+                        .Ranthambore:hover {
+                            
+                          background-color: rgb(85, 47, 47);
+                          font-size: 10px;
+                          font-family: monarcha, serif;
+                          font-weight: 200;
+                          font-style: normal;
+                         
+                          width: 50vw;
+                          height: 100vh;
+  
+                          
+                        
+                        }
+  
+  
+  
+                      .Mauritius{padding: 100px;
+                        opacity: 100%;
+                          font-family: Helvetica, sans-serif;
+                        overflow: scroll;
+                        transition-property: opacity;
+                        transition-duration: 500ms;
+                        transition: background-color 2s ease-in-out;
+                        background-color: white;
+                        }
+                    
+                    
+                        
+                      .Mauritius:hover {
+                            
+                          background-color: rgb(88, 46, 94);
+                          font-size: 10px;
+                          font-family: monarcha, serif;
+                          font-weight: 200;
+                          font-style: normal;
+                         
+                          width: 50vw;
+                          height: 100vh;
+                        
+                        }
+  
+  
+                      .Noclue{padding: 100px;
+                        opacity: 100%;
+                          font-family: Helvetica, sans-serif;
+                        overflow: scroll;
+                        transition-property: opacity;
+                        transition-duration: 500ms;
+                        transition: background-color 2s ease-in-out;
+                        background-color: white;
+                        }
+                    
+                    
+                        .Noclue:hover {
+                            
+                          background-color:black;
+                          font-size: 10px;
+                          font-family: monarcha, serif;
+                          font-weight: 200;
+                          font-style: normal;
+                          text-color: white;
+                          width: 50vw;
+                          height: 100vh;
+                        
+                        }
+                        
+                        
+  h1{color:black;
+      text-align: left;
+      font-size: 15px;
+      font-weight: 400;
+      font-family: masqualero, sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      
+        
+      }
+  
+  
+      h1:hover{color: white;
+        text-align: left;
+        font-size: 15px;
+        font-weight: 400;
+        font-family: masqualero, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        
+          
+        }
+      
+      h2{color: white;
+        font-size: 20px;
+        font-family: masqualero, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        
+      }
+  
+        
+      h3{color: white;
+        font-size: 30px;
+        font-family: masqualero, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        
+      }
