@@ -21,7 +21,7 @@
       transition-property: opacity;
         transition: background-color 1s ease-in-out;
         background-color: #205672;
-        text-decoration: wavy overline white;
+        /* text-decoration: wavy overline white; */
        
       }
 
