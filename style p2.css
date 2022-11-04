@@ -1,6 +1,9 @@
 *{ padding: 0;
   margin: 0;
   }
+
+  @import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+  
   
   .box{display: grid;
       width: 100vw;
@@ -16,33 +19,37 @@
         font-family: Helvetica, sans-serif;
       overflow: scroll;
       transition-property: opacity;
-        transition: background-color 2s ease-in-out;
-        background-color: white;
-        text-color
+        transition: background-color 1s ease-in-out;
+        background-color: #205672;
+        text-decoration: wavy overline white;
        
       }
+
       
     
       .goa:hover {
         
-        background-color: #087CA7;
+        background-color: #205672;
         font-size: 10px;
         font-family: monarcha, serif;
         font-weight: 200;
         font-style: normal;
         text-color: white;
-        width: 50vw;
+        width: 30vw;
         height: 100vh;
-     
-      
+        
+    
       }
   
-      img {
-          max-width: 100%;
-          height: auto;
-          padding-bottom: 2vh;
-        }
+     
+      img.one {
+        /* max-width: 100%;  
+        height: auto;   */
+        fo
+        max-width: 50vw;
+        height: auto;
       
+      }
       
       .agra{padding: 100px;
       opacity: 100%;
@@ -51,16 +58,24 @@
       transition-property: opacity;
       transition-property: opacity;
         transition: background-color 2s ease-in-out;
-        background-color:white;
+        background-color:#216c84;
         text-color
       }
   
   
       .agra:hover {
         
-        background-color: #693668;
-        width: 50vw;
+        background-color: #216c84;
+       width: 30vw;
       height: 100vh;
+      
+      }
+
+      img.two {
+        /* max-width: 100%;  
+        height: auto;   */
+        max-width: 50vw;
+        height: auto;
       
       }
   
@@ -70,46 +85,60 @@
         overflow: scroll;
         transition-property: opacity;
           transition: background-color 2s ease-in-out;
-          background-color:white;
+          background-color:#228798;
           text-color
         }
         
         .phuket:hover {
           
           
-        background-color: #C8963E;
+        background-color: #228798;
           font-size: 10px;
           font-family: monarcha, serif;
           font-weight: 200;
           font-style: normal;
           text-color: white;
-          width: 50vw;
+          width: 30vw;
           height: 100vh;
         
         }
   
+        img.three {
+          /* max-width: 100%;  
+          height: auto;   */
+          max-width: 50vw;
+          height: auto;
         
+        }
       .london{padding:100px;
         opacity: 100%;
           font-family: Helvetica, sans-serif;
         overflow: scroll;
         transition-property: opacity;
           transition: background-color 2s ease-in-out;
-          background-color: white;
+          background-color: #22a5ab;
           text-color
       }
   
   
       .london:hover {
           
-        background-color:  #F84AA7;
+        background-color:  #22a5ab;
         font-size: 10px;
         font-family: monarcha, serif;
         font-weight: 200;
         font-style: normal;
         text-color: white;
-        width: 50vw;
+        width: 30vw;
       height: 100vh;
+      
+      }
+
+      img.five {
+        /* max-width: 100%;  
+        height: auto;   */
+        max-width: 50vw;
+        height: auto;
       
       }
       
@@ -120,17 +149,23 @@
       transition-property: opacity;
       transition-duration: 500ms;
       transition: background-color 2s ease-in-out;
-      background-color: white;
+      background-color: #22c0b7;
       }
       
       .mexico:hover {
           
-        background-color: #60B62B;
-        width: 50vw;
+        background-color: #22c0b7;
+        width: 30vw;
         height: 100vh;
       
       }
+      img.six {
+        /* max-width: 100%;  
+        height: auto;   */
+        max-width: 50vw;
+        height: auto;
       
+      }
       .norway{padding: 100px;
       opacity: 100%;
         font-family: Helvetica, sans-serif;
@@ -138,17 +173,25 @@
       transition-property: opacity;
       transition-duration: 500ms;
       transition: background-color 2s ease-in-out;
-      background-color: white;
+      background-color: #20d5b9;
       }
   
   
       .norway:hover {
           
-        background-color: #777DA7;
-        width: 50vw;
+        background-color: #20d5b9;
+        width: 30vw;
         height: 100vh;
       
       }
+      img.seven {
+        /* max-width: 100%;  
+        height: auto;   */
+        max-width: 50vw;
+        height: auto;
+      
+      }
+
   
       .losangeles{padding: 100px;
       opacity: 100%;
@@ -157,16 +200,26 @@
       transition-property: opacity;
       transition-duration: 500ms;
       transition: background-color 2s ease-in-out;
-      background-color: white;
+      background-color: #26e3b3;
       }
   
       .losangeles:hover {
           
-        background-color: #94C9A9;
-        width: 50vw;
+        background-color: #26e3b3;
+        width: 30vw;
         height: 100vh;
       
       }
+
+      img.eight {
+        /* max-width: 100%;  
+        height: auto;   */
+        max-width: 50vw;
+        height: auto;
+      
+      }
+
+
       
       .Alaska{padding: 100px;
       opacity: 100%;
@@ -174,14 +227,21 @@
       overflow: scroll;
       transition-property: opacity;
       transition: background-color 2s ease-in-out;
-      background-color: white;
+      background-color: #33e9a9;
       }
       
       .Alaska:hover {
           
-        background-color: #DB2955;
-        width: 50vw;
+        background-color: #33e9a9;
+        width: 30vw;
         height: 100vh;
+      
+      }
+      img.nine {
+        /* max-width: 100%;  
+        height: auto;   */
+        max-width: 50vw;
+        height: auto;
       
       }
   
@@ -191,14 +251,22 @@
       overflow: scroll;
       transition-property: opacity;
       transition: background-color 2s ease-in-out;
-      background-color: white;
+      background-color: #42efa0;
       }
       
       .Dubai:hover {
           
-        background-color: #9BC53D;
-        width: 50vw;
+        background-color: #42efa0;
+        width: 30vw;
         height: 100vh;
+      
+      }
+
+      img.ten {
+        /* max-width: 100%;  
+        height: auto;   */
+        max-width: 50vw;
+        height: auto;
       
       }
   
@@ -209,19 +277,19 @@
       transition-property: opacity;
       transition-duration: 500ms;
       transition: background-color 2s ease-in-out;
-      background-color: white;
+      background-color: #51f499;
       }
   
   
       .Indonesia:hover {
           
-        background-color:  #FDE74C;
+        background-color:  #51f499;
         font-size: 10px;
         font-family: monarcha, serif;
         font-weight: 200;
         font-style: normal;
         text-color: #FDE74C;
-        width: 50vw;
+        width: 30vw;
         height: 100vh;
       
       }
@@ -233,14 +301,14 @@
       transition-property: opacity;
       transition-duration: 500ms;
       transition: background-color 2s ease-in-out;
-      background-color: white;
+      background-color: #60f895;
       }
   
   
       .Hongkong:hover {
           
-        background-color: #574D93;
-        width: 50vw;
+        background-color: #60f895;
+        width: 30vw;
         height: 100vh;
       
       }
@@ -253,14 +321,14 @@
         transition-property: opacity;
         transition-duration: 500ms;
         transition: background-color 2s ease-in-out;
-        background-color: white;
+        background-color: #71fb93;
         }
     
     
         .China:hover {
             
-          background-color: #F46036;
-          width: 50vw;
+          background-color: #71fb93;
+          width: 30vw;
           height: 100vh;
         
         }
@@ -272,14 +340,14 @@
           transition-property: opacity;
           transition-duration: 500ms;
           transition: background-color 2s ease-in-out;
-          background-color: white;
+          background-color: #82fe94;
           }
       
       
           .Maldives:hover {
               
-            background-color: #574D93;
-            width: 50vw;
+            background-color: #82fe94;
+            width: 30vw;
             height: 100vh;
           
           }
@@ -291,14 +359,14 @@
             transition-property: opacity;
             transition-duration: 500ms;
             transition: background-color 2s ease-in-out;
-            background-color: white;
+            background-color: #97fea6;
             }
         
         
             .NewYork:hover {
                 
-              background-color: #E56399;
-              width: 50vw;
+              background-color: #97fea6;
+              width: 30vw;
               height: 100vh;
             
             }
@@ -310,14 +378,14 @@
               transition-property: opacity;
               transition-duration: 500ms;
               transition: background-color 2s ease-in-out;
-              background-color: white;
+              background-color: #c1ffca;
               }
           
           
               .Boston:hover {
                   
-                background-color: #D3A588;
-                width: 50vw;
+                background-color: #c1ffca;
+                width: 30vw;
                 height: 100vh;
               
               }
@@ -329,14 +397,14 @@
                 transition-property: opacity;
                 transition-duration: 500ms;
                 transition: background-color 2s ease-in-out;
-                background-color: white;
+                background-color: #c1ffca;
                 }
             
             
                 .Brighton:hover {
                     
-                  background-color:  #7FD1B9;
-                  width: 50vw;
+                  background-color:  #e0ffe4;
+                  width: 30vw;
                   height: 100vh;
                 
                 }
@@ -349,7 +417,7 @@
                   transition-property: opacity;
                   transition-duration: 500ms;
                   transition: background-color 2s ease-in-out;
-                  background-color: white;
+                  background-color: #e0ffe4;
                   }
               
               
@@ -360,8 +428,8 @@
                     font-family: monarcha, serif;
                     font-weight: 200;
                     font-style: normal;
-                    text-color: white;
-                    width: 50vw;
+                    text-color: #eaffed;
+                    width: 30vw;
                     height: 100vh;
                   
                   }
@@ -374,14 +442,14 @@
                     transition-property: opacity;
                     transition-duration: 500ms;
                     transition: background-color 2s ease-in-out;
-                    background-color: white;
+                    background-color: #eaffed;
                     }
                 
                 
                     .Locarno:hover {
                         
                       background-color:  #2176AE;
-                      width: 50vw;
+                      width: 30vw;
                       height: 100vh;
                     
                     }
@@ -400,7 +468,7 @@
                       .Venice:hover {
                           
                         background-color: #EB8258;
-                        width: 50vw;
+                        width: 30vw;
                         height: 100vh;
                       
                       }
@@ -422,7 +490,7 @@
                         .Providence:hover {
                             
                           background-color: #995D81;
-                          width: 50vw;
+                          width: 30vw;
                           height: 100vh;
                         
                         }
@@ -448,7 +516,7 @@
                           font-weight: 200;
                           font-style: normal;
                          
-                          width: 50vw;
+                          width: 30vw;
                           height: 100vh;
   
                           
@@ -477,7 +545,7 @@
                           font-weight: 200;
                           font-style: normal;
                          
-                          width: 50vw;
+                          width: 30vw;
                           height: 100vh;
                         
                         }
@@ -502,7 +570,7 @@
                           font-weight: 200;
                           font-style: normal;
                           text-color: white;
-                          width: 50vw;
+                          width: 30vw;
                           height: 100vh;
                         
                         }
@@ -510,11 +578,12 @@
                         
   h1{color:black;
       text-align: left;
-      font-size: 15px;
+      font-size: 30px;
       font-weight: 400;
       font-family: masqualero, sans-serif;
       font-weight: 700;
       font-style: normal;
+      color: white;
       
         
       }
@@ -522,7 +591,7 @@
   
       h1:hover{color: white;
         text-align: left;
-        font-size: 15px;
+        font-size: 30px;
         font-weight: 400;
         font-family: masqualero, sans-serif;
         font-weight: 700;
@@ -547,3 +616,33 @@
         font-style: normal;
         
       }
+
+     /* .lines {
+  margin-top: 40px;
+  height: calc(100% - 40px);
+  width: 100%;
+  background-image: repeating-linear-gradient(white 0px, white 24px, steelblue 25px);
+}
+.text {
+  position: absolute;
+  top: 65px;
+  left: 55px;
+  bottom: 10px;
+  right: 10px;
+  line-height: 25px;
+  font-family: 'Indie Flower';
+  overflow: hidden;
+  outline: none;
+}
+.holes {
+  position: absolute;
+  left: 10px;
+  height: 25px;
+  width: 25px;
+  background: lightgoldenrodyellow;
+  border-radius: 50%;
+  box-shadow: inset 0px 0px 2px 0px #888;
+} */
+
+
+}
