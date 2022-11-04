@@ -58,7 +58,7 @@
       
       .agra{padding: 100px;
       opacity: 100%;
-        font-family: Helvetica, sans-serif;
+      font-family: 'Indie Flower';
       overflow: scroll;
       transition-property: opacity;
       transition-property: opacity;
@@ -86,7 +86,7 @@
   
       .phuket{padding:100px;
         opacity: 100%;
-          font-family: Helvetica, sans-serif;
+        font-family: 'Indie Flower';
         overflow: scroll;
         transition-property: opacity;
           transition: background-color 2s ease-in-out;
@@ -99,7 +99,7 @@
           
         background-color: #228798;
           font-size: 10px;
-          font-family: monarcha, serif;
+          font-family: 'Indie Flower';
           font-weight: 200;
           font-style: normal;
           text-color: white;
@@ -117,7 +117,7 @@
         }
       .london{padding:100px;
         opacity: 100%;
-          font-family: Helvetica, sans-serif;
+        font-family: 'Indie Flower';
         overflow: scroll;
         transition-property: opacity;
           transition: background-color 2s ease-in-out;
@@ -130,7 +130,7 @@
           
         background-color:  #22a5ab;
         font-size: 10px;
-        font-family: monarcha, serif;
+        font-family: 'Indie Flower';
         font-weight: 200;
         font-style: normal;
         text-color: white;
@@ -149,7 +149,7 @@
       
       .mexico{padding: 100px;
       opacity: 100%;
-        font-family: Helvetica, sans-serif;
+      font-family: 'Indie Flower';
       overflow: scroll;
       transition-property: opacity;
       transition-duration: 500ms;
