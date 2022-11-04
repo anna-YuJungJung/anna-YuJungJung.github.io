@@ -1,15 +1,17 @@
-*{ padding: 0;
-  margin: 0;
-  }
+
 
   @import url(https://fonts.googleapis.com/css?family=Indie+Flower);
-  
+  body {
+    margin: 0;
+    padding: 0;
+    background: lightgoldenrodyellow;
+  }
   
   .box{display: grid;
       width: 100vw;
       height: 100vh;
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-      
+      font-family: 'Indie Flower';
         grid-area: 1 / 1 / span 1 / span 1;
       background-color: white;
       }
@@ -21,6 +23,8 @@
       transition-property: opacity;
         transition: background-color 1s ease-in-out;
         background-color: #205672;
+        font-family: 'Indie Flower';
+        text-color: #205672;
         /* text-decoration: wavy overline white; */
        
       }
@@ -31,10 +35,11 @@
         
         background-color: #205672;
         font-size: 10px;
-        font-family: monarcha, serif;
+        /* font-family: monarcha, serif; */
+        font-family: 'Indie Flower';
         font-weight: 200;
         font-style: normal;
-        text-color: white;
+        text-color: #205672;
         width: 30vw;
         height: 100vh;
         
