@@ -31,10 +31,10 @@ body{
 }
 
 h1 {
-  color: #12de19;
+  color: #859fb8;
   left: 150px;
   font-size: 3em;
-  text-shadow: 5px 5px #859fb8;
+  /* text-shadow: 5px 5px #859fb8; */
   bottom: 30px;
   margin-left: 20px;
   margin-right: 50px;
