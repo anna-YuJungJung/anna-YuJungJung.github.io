@@ -121,6 +121,8 @@ button:hover{
   box-shadow: 0px 0px 8px #9ef0f3;
   font-size: 18pt;
   text-align: center;
+  margin-right: 20%;
+  margin-top: 20%;
 }
 
 .manip{
@@ -382,12 +384,13 @@ button:hover{
 
 button{
 	font-family: 'RECURSIVE', monospace;
-	font-size: 1em;
+	font-size: 0.5em;
 	background: white;
 	outline: none;
-  border-radius: 25px;
-	padding: 1em;
-	margin-top: 2rem;
+  border-radius: 16px;
+	padding: 0.2em;
+	margin-top: 1rem;
+  margin-left: 0.7rem;
   border:0.16em solid rgba(255,255,255,0);
 }
 
@@ -406,6 +409,3 @@ button:hover{
   display: inline-flex;
 }
 
-<img src="images/w5.png" 
-     width="400" 
-     height="500" />

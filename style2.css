@@ -252,7 +252,7 @@ h1 {
 
 #rec5{
   position:absolute;
-  background-color:blue;
+  background-color:rgb(255, 173, 244);
   height:80px;
   width:5px;
   animation: move1 6s ease-in-out infinite normal;
@@ -261,7 +261,7 @@ h1 {
 
 #rec6{
   position:absolute;
-  background-color:blue;
+  background-color:rgb(204, 252, 166);
   height:80px;
   width:5px;
   animation: move2 6s ease-in-out infinite normal;
