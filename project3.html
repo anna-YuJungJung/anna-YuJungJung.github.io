@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>identity GENERATOR</title>
+        <link rel="stylesheet" type="text/css" href="style p3.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+
+        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
+        
+        <script src="sketch p3.js" defer></script>
+    </head>
+    <body>
+           <div id="title">
+            Identity Generator<br><hr>
+           </div>
+           <main>
+                <div id="gen">
+                    <div id="creature">                            
+                        <div id="body">
+                            <div id="head">
+                                <div class="eyes"></div>
+                            </div>
+                            <div id="arms" class="armPair">
+                                <div class="arm" id="arm1"></div>
+                                <div class="arm"id="arm2"></div>
+                            </div>
+                            <div id="legs">
+                                <div class="leg" id="leg1"></div>
+                                <div class="leg" id="leg2"></div>
+                            </div>
+                            <div id="feet">
+                                <div class="foot">
+                                    <button class="submit" id="submit">Submit</button>
+                                    //save or name whats your name 2. orientation (window, check simlated site,)//
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div id="shadow">
+
+                    </div>                         -->
+                </div>
+                <div id="editor">
+                        <!-- <div id="bodyplan">
+                            <b>choose a body plan:</b><br>
+                            <button>BIPED</button><button>QUADRUPED</button>
+                        </div> -->
+                        <div class="manip" id="bodyHeightCtrl">
+                            body height<br>
+                            <input class="slider" id="height" type="range" step="10" min="200" max="400">
+                        </div>
+                        <div class="manip" id="bodyWidthCtrl">
+                            body width<br>
+                            <input class="slider" id="width" type="range" min="100" max="300" >
+                        </div>
+                        <div class="manip" id="armControl">
+                            pairs of arms<br>
+                            <input class="slider" id="armHandle" type="range" min="1" max="5" value="1">
+                        </div>
+                        <div class="manip" id="eyeColor">
+                            eye color<br>
+                            <input class="slider" id="eyeHandle" type="range" step="1" min="0" max="360" value="0">
+                        </div>
+                        <div class="manip" id="color">
+                            body color<br>
+                            <input class="slider" id="colorHandle" type="range" value="0" min="0" max="360">
+                        </div>
+                        
+                </div>
+
+           </main> 
+    </body>
+</html>
