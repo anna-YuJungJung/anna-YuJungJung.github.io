@@ -14,7 +14,7 @@ body{
   font-size: 15pt;
 }
 #title{
-  color:#9ef0f3;
+  color:#69d6da;
   font-size: 60pt;
   grid-row: 1/2;
   width: 100vw;
@@ -407,5 +407,24 @@ button:hover{
   background-color: white;
   position: relative;
   display: inline-flex;
+}
+
+.description{
+  grid-column: 2/3;
+  /* height: ; */
+  margin: 0px;
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows:1fr 1fr 1fr 1fr 1fr;
+  border-color: #9ef0f3;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 10px;
+  background-color: #60fff750;
+  padding: 25px;
+  box-shadow: 0px 0px 8px #9ef0f3;
+  font-size: 18pt;
+  text-align: center;
+
 }
 
