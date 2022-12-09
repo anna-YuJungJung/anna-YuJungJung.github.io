@@ -117,3 +117,66 @@ $(function(){
     })
 })
 
+$(document).ready(function(){
+
+  console.log('script loaded');
+
+  const wghtmax = 500;
+  const lummax = 100;
+
+  let value;
+
+  $('.axis-range').on('input', function(){
+
+      value = parseInt($(this).val()); //get slider input value
+      console.log(value);
+
+      let slidertype = $(this).data('type'); //get slider axis
+      console.log("--"+slidertype, value);
+     $('#shape').css("--"+slidertype, value);
+  });
+
+  $('#submit').click(function(e){
+	    console.log('submit');
+
+	    let plain = $('#plain').val();
+	    $('#word').text(plain);
+
+      let css = $('#shape').attr('style');
+      console.log(css);
+
+
+      $('#newshape').attr('style', css);
+
+      $('.form').hide();
+      $('#poster').show();
+      
+      
+	});
+
+  var dt = new Date();
+  document.getElementById('date-time').innerHTML = dt;
+
+});
+//button
+
+function background1(){
+    document.getElementById('myImage')
+    .src="images/IMG_7316.JPG";
+    document.getElementById('message')
+    .innerHTML="";
+}
+
+function background2(){
+    document.getElementById('myImage')
+    .src="https://cdn.glitch.global/9bcc0001-186c-4136-bb5d-806fc5602edb/2.jpeg?v=1670570403843";
+    document.getElementById('message')
+    .innerHTML="";
+}
+function background3(){
+    document.getElementById('myImage')
+    .src="https://cdn.glitch.global/9bcc0001-186c-4136-bb5d-806fc5602edb/1.jpeg?v=1670570391174";
+    document.getElementById('message')
+    .innerHTML="";
+}
+

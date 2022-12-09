@@ -64,3 +64,19 @@ body {
   background-color: black;
   color: white;
 }
+
+/* background */
+
+img{
+  height: 500px;
+  width: 450px;
+  }
+  h1{
+  color: pink;
+  margin-top: 20px;
+  font-family: Comic Sans MS, cursive, sans-serif;
+  }
+  .button{
+  margin-left: 45%;
+  z-index:-1;
+  }
