@@ -23,6 +23,50 @@
 }
 
 
+#letter-n {
+  position: relative;
+  height: 50px;
+  width: 30px;
+  border-style: solid;
+  border-color: green;
+  border-width: 0 10px 0 10px;
+}
+
+#letter-n:before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 58px;
+  transform-origin: 5px 14px 0;
+  transform: rotate(-43deg);
+  background: green;
+}
+
+#container > div {
+  margin: 10px;
+  float: left;
+}
+#letter-a {
+  position: relative;
+  width: 30px;
+  height: 40px;
+  background: white;
+  border-radius: 10px 10px 0 0;
+  border-style: solid;
+  border-color: red red transparent red;
+  border-width: 10px 10px 0 10px;
+}
+
+#letter-a::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  height: 10px;
+  width: 30px;
+  background: orange;
+}
+
+
 html {
   background-color: black;
   color: blue;
